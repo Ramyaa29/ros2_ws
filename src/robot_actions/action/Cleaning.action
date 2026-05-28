@@ -1,0 +1,5 @@
+int32 cleaning_time
+---
+bool success
+---
+float32 percentage
