@@ -26,6 +26,7 @@ if(BUILD_TESTING)
 endif()
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Cleaning.action"
+  "action/Delivery.action"
 )
 
 ament_package()
