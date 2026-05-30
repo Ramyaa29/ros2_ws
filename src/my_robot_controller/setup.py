@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'parameters= my_robot_controller.parameters:main'
         ],
     },
 )
